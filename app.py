@@ -1,5 +1,5 @@
 from flask import Flask,render_template,redirect,request,session,flash,url_for
-import pickle
+import dill as pickle
 from datetime import timedelta
 from artifacts import * 
 from others import *
