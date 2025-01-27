@@ -3,6 +3,8 @@ import pickle
 from datetime import timedelta
 from artifacts import * 
 from others import *
+from artifacts import ParticipatingSubject, ParticipatingStudent
+
 
 workingExamination = MainSystem.load("exam.mey")
 
